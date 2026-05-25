@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Resume | AWS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Nikhila Reddy </h1>
+            <p class="subtitle">Cloud Engineer | AWS | Data Analytics | AI Workflows</p>
+            <p class="visitor-count">Visitors: <span id="visitor-count">...</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Three-Tier Web Application</h3>
+                    <p>Built a scalable web app using CloudFront, Lambda, API Gateway, and DynamoDB on AWS.</p>
+                    <div class="tags">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Serverless</span>
+                        <span class="tag">CloudFront</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Serverless Analytics Pipeline</h3>
+                    <p>Designed a data pipeline using Athena, S3, and QuickSight for business intelligence dashboards.</p>
+                    <div class="tags">
+                        <span class="tag">Athena</span>
+                        <span class="tag">QuickSight</span>
+                        <span class="tag">S3</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>AI Workflow Automation</h3>
+                    <p>Automated document processing using Lambda and AI services for intelligent data extraction.</p>
+                    <div class="tags">
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">Lambda</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Cloud Resume (This Site)</h3>
+                    <p>This portfolio itself: S3, CloudFront OAC, Lambda visitor counter, GitHub Actions CI/CD.</p>
+                    <div class="tags">
+                        <span class="tag">S3</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">OIDC</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud & Infrastructure</h3>
+                    <ul>
+                        <li>AWS (S3, CloudFront, Lambda, DynamoDB, API Gateway)</li>
+                        <li>IAM & Security Best Practices</li>
+                        <li>Serverless Architecture</li>
+                        <li>CI/CD with GitHub Actions</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & Analytics</h3>
+                    <ul>
+                        <li>Amazon Athena & QuickSight</li>
+                        <li>SQL & NoSQL Databases</li>
+                        <li>Data Pipeline Design</li>
+                        <li>Business Intelligence Dashboards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with AWS S3, CloudFront, Lambda, API Gateway & DynamoDB</p>
+        <p>Deployed via GitHub Actions with OIDC Federation</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
