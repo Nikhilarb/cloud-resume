@@ -3,7 +3,7 @@ async function fetchVisitorCount() {
     const counterElement = document.getElementById('visitor-count');
     try {
         // This URL will be replaced with your real API Gateway URL later
-        const response = await fetch('YOUR_API_GATEWAY_URL/count');
+        const response = await fetch('https://29r2k8v64h.execute-api.us-east-1.amazonaws.com/count');
         if (!response.ok) {
             throw new Error('API request failed');
         }
